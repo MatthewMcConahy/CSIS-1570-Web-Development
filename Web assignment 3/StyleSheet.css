@@ -1,0 +1,16 @@
+.Section-Container{
+	display: flex;
+	flex-direction:column;
+	width: 50em;
+	
+}
+
+.second-child{
+	display: flex;
+	flex-direction: column;
+}
+
+div:nth-child(1){
+	width: 10em;
+}
+
