@@ -1,0 +1,73 @@
+/* Divison CSS */
+
+Body{
+	
+	
+	
+}
+
+#Header-Top{
+	margin:auto;
+	font-size: 26px;
+	text-align: center;
+	color:black;
+	
+}
+
+.flex-container{
+	display: flex;
+	background:black;
+}
+
+.flex-container > div {
+  flex-grow:1;
+  background-color:#02B7E5;
+  margin: auto;
+  padding: 30px;
+  font-size: 40px;
+}
+
+#HomePage{
+	
+}
+
+#Header-Intro{
+	text-align: center;
+	font-size: 2.5em;
+}
+
+
+
+#Intro-Paragraph{
+	display:grid;
+	float: right;
+	width: 30%;
+	background: white;
+	text-align: center;
+	font-size:1.1em;
+	color:black;
+	
+}
+
+#questionType{
+	
+}
+
+
+#BottomFooter{
+position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+   text-align: center;
+   padding: 3px;
+   color: Black;
+}
+
+#VideoTag{
+	align-content: flex-end;
+}
+
+
+

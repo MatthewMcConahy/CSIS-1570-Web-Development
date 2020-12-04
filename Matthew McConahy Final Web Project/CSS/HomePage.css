@@ -1,0 +1,108 @@
+/* Home page CSS */
+
+Body{
+	display: grid;
+}
+
+#Header-Top{
+	margin:auto;
+	font-size: 26px;
+	text-align: center;
+	color:black;
+}
+
+
+.side-piece{
+
+}
+
+#JScode
+{
+	text-align: center;
+}
+
+.flex-container{
+	display: flex;
+	border:thick;
+}
+
+.flex-container > div {
+  flex-grow:1;
+}
+
+#MiddleContentSample{
+	text-align: center;
+    font-size: 1.2em;
+    color: black;
+}
+
+
+#Header-Intro{
+	text-align: center;
+	font-size: 2.5em;
+
+}
+
+#NumberEntry{
+	text-align: center;
+	width: 500px;
+	margin:  auto;
+	display: inline-block;
+	border: 20px;
+	padding-left: 300px;
+	padding-right: 68px;
+	font-family: sans-serif;
+}
+
+
+#Intro-Paragraph{
+	float: right;
+	width: 30%;
+	margin: auto;
+	padding: 30px;
+	border-color:#26BC3C;
+	text-align: center;
+	font-size:1.7em;
+	
+	
+}
+
+#correctAnswer{
+	text-align: center;
+}
+
+
+#UserAnswer{
+	text-align: center;
+}
+
+#homePageImg{
+	width: auto;
+}
+
+#BottomFooter{
+position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#707070;
+   text-align: center;
+   padding: 3px;
+   color: black;
+}
+
+#buttonRetry{
+	margin: auto;
+	width: 150px;
+	padding: 8px;
+}
+
+#buttonSubmit{
+	margin: auto;
+	width: 150px;
+	padding: 8px
+}
+
+#VideoTag{
+	align-content: flex-end;
+}

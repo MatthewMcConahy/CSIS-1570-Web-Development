@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<header>
+<meta charset="utf-8">
+	
+<title>Home Page</title>
+</header>
+<link href="../CSS/HomePage.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../JavaScript/Generator.js"></script>
+<h1 id="Header-Top">Matthew's Math Website</h1>
+
+<body on onLoad="generateNumsSubtraction();" >
+<div class="flex-container">
+<div id = "HomePage"><a href="Home Page.html"><img id="homePageImg" src="../Images/Home Page.jpg"></a></div>
+  <div id = "Addition"><a href="Addition.html"><img id="additionPageImg" src="../Images/additionPage.jpg"></a></div>
+  <div id = "Subtraction"><a href="Subtraction.html"><img id="subtractionPageImg" src="../Images/Subtraction Page.jpg"></a></div>  
+  <div id = "Multiplication"><a href="Multiplication.html"><img id= "multiplicationPageImg" src="../Images/Multiplication Page.jpg"</a></div>
+  <div id = "Divison"><a href="Division.html"><img id="divisionPageImg" src="../Images/Division Page.jpg"</a></div>
+  <div id = "About Us"><a href="About Us.html"><img id="aboutUsImg" src="../Images/About Us.jpg"></a></div>
+</div>
+<h2 id = "Header-Intro">Welcome to the Subtraction section!</h2>
+<article class = "Side-Piece">
+	<video id="VideoTag"  controls>
+  <source src='../Videos/SubtractionPageVideo.mp4' type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+	
+	<form id="NumberEntry">
+	<p id="QuestionAsk">Answer the following, Fill in the box below with your answer</p>
+	  <br><h1 id="JScode"></h1></br>
+    <input type= "number" id="UserAnswer" name="UserAnswer">
+  </form>
+	
+	<legend id = "Intro-Paragraph"> Definition of Subtraction is simply! <br></br> 
+  	Take two numbers or more then take them away from another. Such as 1 - 1 = 0
+	<br></br>
+	Go ahead try it here!
+	</legend>
+	
+<p id="correctAnswer">Answer: </p>
+</article>
+
+<input type=button id="buttonSubmit" Value="Submit" onClick="submitProblemForChecking();"></button>
+<input type=button id="buttonRetry" Value="Different Problem!" onClick="generateNumsSubtraction();"></button>
+ 
+</body>
+<footer class="Bottom Part" id="BottomFooter">Contact us by <nav>Email:<a href="mailto:mmmcconahy@student.ysu.edu">
+			mmmcconahy@student.ysu.edu</a></nav> 
+for questions and concerns </footer>
+</html>
